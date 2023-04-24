@@ -17,6 +17,7 @@ public class Five {
 
         String a = scanner.next();
         String b = scanner.next();
+
         StringBuilder minA = new StringBuilder();
         StringBuilder maxA = new StringBuilder();
         StringBuilder minB = new StringBuilder();
