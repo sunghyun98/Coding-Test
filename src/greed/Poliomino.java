@@ -1,8 +1,9 @@
 package greed;
 
 import java.io.*;
+//throws IOException사용하기 위해서 임포트
 import java.util.Scanner;
-import java.lang.String;
+
 
 /**
  * 민식이는 다음과 같은 폴리오미노 2개를 무한개만큼 가지고 있다. AAAA와 BB
