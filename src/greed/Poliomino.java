@@ -26,6 +26,7 @@ public class Poliomino {
         br.close();
     }
 
+
     public static String polyomino1(String str) {
         str= str.replaceAll("XXXX", "AAAA");
         str = str.replaceAll("XX", "BB");
