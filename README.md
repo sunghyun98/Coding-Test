@@ -4,11 +4,17 @@
 
 자료구조
 배열 (Array)
+
 해시 테이블 (Hash Table)
+
 연결 리스트 (Linked List)
+
 스택 (Stack)
+
 큐 (Queue)
+
 힙 (Heap)
+
 트리 & 그래프 (Tree & Graph)
 
 알고리즘
