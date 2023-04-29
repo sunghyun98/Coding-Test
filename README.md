@@ -19,9 +19,15 @@
 
 알고리즘
 이진 탐색 (Binary Search)
+
 정렬 (Sorting)
+
 재귀 (Recursion)
+
 너비 우선 탐색 (BFS)
+
 깊이 우선 탐색 (DFS)
+
 백트래킹 (Backtracking)
+
 동적 계획법 (Dynamic Programming)
