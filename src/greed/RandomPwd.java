@@ -1,6 +1,9 @@
 package greed;
 
 import java.io.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.StringTokenizer;
 
 /**
  * 최근 들어 개인정보 유출에 대한 뉴스를 많이 본 수형이는 한 사이트의 비밀번호가 유출 되더라도 다른 사이트에서
@@ -24,25 +27,29 @@ import java.io.*;
  * \n 이스케이프 시퀸스를 사용하여야 한다.
  */
 public class RandomPwd {
-    public static void main(String[] args) throws IOException {
+    public static int N, M;
+        public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        String a = br.readLine();
-        String b = br.readLine();
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
 
-        String array[] = a.split("");
-        String array1[] = b.split("");
+        HashMap<String, String> map = new HashMap<>();
 
-        for (int i = 0; i < a.length(); i++){
-            if (int j= 0; j < a.length())
+        for(int i=0; i<N; i++) {
+            String str = br.readLine();
+            String arr[] = str.split(" ");
+
+            map.put(arr[0], arr[1]);
         }
 
+        for(int j=0; j<M; j++) {
+            String get = br.readLine();
 
-        bw.flush();
-        bw.close();
-
-
+            System.out.println(map.get(get));
+        }
 
     }
+
 }

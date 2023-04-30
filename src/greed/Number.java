@@ -28,6 +28,8 @@ public class Number {
         StringTokenizer st1 = new StringTokenizer(s, "0");
         StringTokenizer st0 = new StringTokenizer(s, "1");
 
+
+        System.out.println(st1.nextToken());
         System.out.println(Math.min(st1.countTokens(), st0.countTokens()));
     }
 }
