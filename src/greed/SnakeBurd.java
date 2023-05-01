@@ -29,8 +29,10 @@ public class SnakeBurd {
         //결과값 출력하는 BufferedWriter
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+
         int N = Integer.parseInt(st.nextToken());
         int L = Integer.parseInt(st.nextToken());
+
         int[] arr = new int[N];
 
         st = new StringTokenizer(br.readLine(), " ");
@@ -38,6 +40,7 @@ public class SnakeBurd {
 
         for (int i = 0; i < N; i++)
             arr[i] = Integer.parseInt(st.nextToken());
+
         Arrays.sort(arr);    //오름차순 정렬
 
         //낮은 과일부터 탐색 진행
