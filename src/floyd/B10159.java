@@ -25,25 +25,25 @@ import java.io.InputStreamReader;
  * 각 물건에 대해서 그 물건과의 비교 결과를 알 수 없는 물건의 개수를 출력하는 프로그램을 작성하시오.
  *
  */
-public class B10159 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(br.readLine());
-        int M = Integer.parseInt(br.readLine());
-
-        int [][] number = new int[N][N];
-
-        for (int i = 0; i < M; i++){
-            int a = Integer.parseInt(br.readLine());
-            int b = Integer.parseInt(br.readLine());
-            number[a][b] = 1;
-        }
-        for (int k = 0; k < N; k++){
-            for (int i = 0; i <N; i++){
-                for (int j = 0; j < N; j++){
-                    if (number[][])
-                }
-            }
-        }
-    }
-}
+//public class B10159 {
+//    public static void main(String[] args) throws IOException {
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int N = Integer.parseInt(br.readLine());
+//        int M = Integer.parseInt(br.readLine());
+//
+//        int [][] number = new int[N][N];
+//
+//        for (int i = 0; i < M; i++){
+//            int a = Integer.parseInt(br.readLine());
+//            int b = Integer.parseInt(br.readLine());
+//            number[a][b] = 1;
+//        }
+//        for (int k = 0; k < N; k++){
+//            for (int i = 0; i <N; i++){
+//                for (int j = 0; j < N; j++){
+//                    if (number[][])
+//                }
+//            }
+//        }
+//    }
+//}
