@@ -17,7 +17,7 @@ import java.util.StringTokenizer;
  *
  * 임문빈을 도와 임한수의 영어 이름을 팰린드롬으로 바꾸는 프로그램을 작성하시오.
  *
- */
+ */d
 public class Pallin {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
