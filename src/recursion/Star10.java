@@ -16,6 +16,8 @@ public class Star10 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int N = Integer.parseInt(br.readLine());
 
+
+
         arr = new char[N][N];
 
         star(0, 0, N, false);
