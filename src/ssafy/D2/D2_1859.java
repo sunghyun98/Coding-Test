@@ -1,4 +1,4 @@
-`package ssafy.D2;
+package ssafy.D2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -42,4 +42,3 @@ public class D2_1859 {
         System.out.print(sb.toString());
     }
 }
-`
