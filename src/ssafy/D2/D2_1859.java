@@ -16,7 +16,7 @@ public class D2_1859 {
 
         for(int k=1; k<=tc; k++) {
             int n = Integer.parseInt(reader.readLine());
-
+            //정수형으로 변환
             int [] a = new int[n];
 
             String [] input = reader.readLine().split(" ");
