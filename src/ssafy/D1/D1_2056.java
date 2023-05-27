@@ -20,7 +20,7 @@ public class D1_2056 {
             if(year <=0 ){
                 flag = false;
             }
-            if (month )
+
 
         }
 
