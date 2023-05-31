@@ -13,14 +13,41 @@ import java.util.Scanner;
  * 다리끼리는 서로 겹쳐질 수 없다고 할 때 다리를 지을 수 있는 경우의 수를 구하는 프로그램을 작성하라.
  */
 public class B_1010 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        static int[][] dp = new int[30][30];
 
-        int test = sc.nextInt();
+        public static void main(String[] args) {
 
+            Scanner in = new Scanner(System.in);
 
-        for (int i = 0; i < test; i++){
+            int T = in.nextInt();
 
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 0; i < T; i++) {
+
+                // M개중 N개를 뽑는 경우 = nCr 에서 n = M, r = N
+                int N = in.nextInt();		// N = r
+                int M = in.nextInt();		// M = n
+
+                sb.append(combi(M, N)).append('\n');
+            }
+
+            System.out.println(sb);
+        }
+
+        static int combi(int n, int r) {
+
+            // 경우 1 : 경우의 수가 바로 나올 경우, 그대로 반환
+            if (dp[n][r] > 0) {
+                return dp[n][r];
+            }
+
+            // 경우 2 : nC₀ = 1 일 경우
+            if (n == r || r == 0) {
+                return dp[n][r] = 1;
+            }
+
+            // 경우 3 : n과 r의 이항계수 구할 경우
+            return dp[n][r] = combi(n - 1, r - 1) + combi(n - 1, r);
         }
     }
-}
