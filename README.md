@@ -31,3 +31,5 @@
 백트래킹 (Backtracking)
 
 동적 계획법 (Dynamic Programming)
+
+https://www.notion.so/92d2e04460e74c84a973e097a914aff6?pvs=4
