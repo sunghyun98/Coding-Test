@@ -18,7 +18,7 @@ import java.util.Scanner;
  *
  * 출력
  * 제출할 출력 파일은 1행으로만 되어 있다. 잔돈에 포함된 매수를 출력하시오.
- *
+ * 그리드 알고리즘
  */
 public class B_5585 {
     public static void main(String[] args) throws IOException {
