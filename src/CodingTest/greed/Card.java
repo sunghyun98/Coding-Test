@@ -1,6 +1,4 @@
-package greed;
-
-import java.util.Scanner;
+package CodingTest.greed;
 
 /**
  * 석환이는 아기다. 아기 석환이는 자연수가 쓰여져있는 카드를 갖고 다양한 놀이를 하며 노는 것을 좋아한다.

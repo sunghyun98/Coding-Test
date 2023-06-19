@@ -1,8 +1,7 @@
-package greed;
+package CodingTest.greed;
 
 import java.io.*;
 //throws IOException사용하기 위해서 임포트
-import java.util.Scanner;
 
 
 /**

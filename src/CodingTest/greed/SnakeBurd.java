@@ -1,4 +1,4 @@
-package greed;
+package CodingTest.greed;
 
 import java.io.*;
 import java.util.Arrays;

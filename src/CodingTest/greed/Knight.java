@@ -1,6 +1,4 @@
-package greed;
-
-import com.sun.tools.javac.Main;
+package CodingTest.greed;
 
 import java.util.Scanner;
 

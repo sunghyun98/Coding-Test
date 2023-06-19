@@ -1,4 +1,4 @@
-package floyd;
+package CodingTest.floyd;
 
 import java.util.Scanner;
 

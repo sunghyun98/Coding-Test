@@ -1,11 +1,6 @@
-package greed;
+package CodingTest.greed;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
 /**
  * 학교에서 그래픽스 수업을 들은 동준이는 수업시간에 들은 내용을 바탕으로 스마트폰 게임을 만들었다.

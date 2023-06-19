@@ -1,8 +1,4 @@
-package floyd;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+package CodingTest.floyd;
 
 /**
  * 무게가 서로 다른 N 개의 물건이 있다. 각 물건은 1부터 N 까지 번호가 매겨져 있다.
