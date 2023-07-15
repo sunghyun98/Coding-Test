@@ -3,7 +3,6 @@ package 정처기_실기_예제문제;
 class Static {
     public int a = 20;
     static int b = 0;
-
     public static void main(String[] args) {
         int a;
         a = 10;
