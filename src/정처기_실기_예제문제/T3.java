@@ -10,6 +10,5 @@ public class T3 {
         System.out.println(str.length());
         System.out.println(num.length);
         System.out.println(str.length());
-
     }
 }
