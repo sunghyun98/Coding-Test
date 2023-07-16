@@ -7,7 +7,6 @@ public class T5 {
         for (a = 0; a < 10; a++, hap += a){
             System.out.println("a = " + a);
             System.out.println("hap = " + hap);
-
         }
     }
 }
