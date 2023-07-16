@@ -8,6 +8,5 @@ public class T5 {
             System.out.println("a = " + a);
             System.out.println("hap = " + hap);
         }
-
     }
 }
