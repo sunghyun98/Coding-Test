@@ -25,6 +25,13 @@ class DeleteString {
     }
 
     public static void main(String[] args) {
+        DeleteString deleteString = new DeleteString();
 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("문자열을 입력하세요: ");
+        String input = sc.nextLine();
+
+        String result = deleteString.solution(input);
+        System.out.println("중복 문자를 제거하고 뒤집은 결과: " + result);
     }
 }
