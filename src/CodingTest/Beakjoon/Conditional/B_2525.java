@@ -6,7 +6,7 @@ import java.util.Scanner;
  두 번째 줄에는 요리하는 데 필요한 시간 C (0 ≤ C ≤ 1,000)가 분 단위로 주어진다.
  */
 
-public class B_2525 {t
+public class B_2525 {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
