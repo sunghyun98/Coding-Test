@@ -69,4 +69,4 @@ https://www.acmicpc.net/
 
 
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=백준아이디)](https://solved.ac/qw9107/)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=qw9107)](https://solved.ac/qw9107/)
