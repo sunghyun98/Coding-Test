@@ -1,7 +1,6 @@
 package CodingTest.Beakjoon.Stack;
 
 import java.util.Scanner;
-import java.util.Stack;
 
 /*
 정수를 저장하는 스택을 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.
@@ -18,90 +17,74 @@ empty: 스택이 비어있으면 1, 아니면 0을 출력한다.
 
 top: 스택의 가장 위에 있는 정수를 출력한다. 만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다.
  */
-public class B_10828 {
-
-    public static int[] stack; //stack이라는 정적 배열 생성
-    public static int size = 0; //size 정적 변수 선언
-
-
+public class B_10828r {
+    public static int[] stack;
+    public static int size;
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        StringBuilder st = new StringBuilder();
 
-        Scanner in = new Scanner(System.in);
-        StringBuilder sb = new StringBuilder();
+        int S = sc.nextInt();
+        stack = new int[S];
 
-        int N = in.nextInt(); //명령어의 개수 입력
+        for (int i = 0; i < S; i++){
+            String str = sc.next();
 
-        stack = new int[N]; //이미 선언된 stack 배열의 크기를 지정
-
-        for(int i = 0; i < N; i++) {
-
-            String str = in.next();//명령어 입력
-
-            //명령어에 해당하는 case 로 이동
-            switch (str) {
-
+            switch (str){
                 case "push":
-                    push(in.nextInt()); // push할 정수를 push 메서드에 입력
+                    push(sc.nextInt());
                     break;
-
                 case "pop":
-                    sb.append(pop()).append('\n');
+                    st.append(pop()).append("\n");
                     break;
-
                 case "size":
-                    sb.append(size()).append('\n');
+                    st.append(size()).append('\n');
                     break;
-
                 case "empty":
-                    sb.append(empty()).append('\n');
+                    st.append(empty()).append('\n');
                     break;
-
                 case "top":
-                    sb.append(top()).append('\n');
+                    st.append(top()).append('\n');
                     break;
+
             }
-
         }
-        System.out.println(sb);
+        System.out.println(st);
     }
-
-    public static void push(int item) {
-        stack[size] = item;
+    public static void push(int a){
+        stack[size] = a;
         size++;
     }
 
     public static int pop() {
-        if(size == 0) {
+        if (size == 0) {
             return -1;
-        }
-        else {
+        } else {
             int res = stack[size - 1];
             stack[size - 1] = 0;
             size--;
             return res;
         }
+
     }
 
-    public static int size() {
+    public static int size(){
         return size;
     }
 
-    public static int empty() {
-        if(size == 0) {
+    public static int empty(){
+        if (size == 0){
             return 1;
-        }
-        else {
+        }else {
             return 0;
         }
     }
 
-    public static int top() {
-        if(size == 0) {
+    public static int top(){
+        if(stack[size-1] == 0){
             return -1;
-        }
-        else {
-            return stack[size - 1];
+        }else {
+            return stack[size-1];
         }
     }
-
 }
