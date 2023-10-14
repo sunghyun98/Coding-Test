@@ -66,7 +66,8 @@ public class ArrayListExample {
         System.out.println("colorArrayList : " + colorArrayList);  // [[ Black: 100 ], [ White: 2000 ]]
         System.out.println("copycolorArrayList : " + copycolorArrayList); // [[ Black: 100 ], [ White: 2000 ]]
 
-
+        //그외 메소드 타입
+        System.out.println(colorArrayList.contains(new Color("Yello", 500)));
     }
 
 }
