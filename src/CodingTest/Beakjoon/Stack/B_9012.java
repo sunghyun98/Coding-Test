@@ -33,6 +33,7 @@ public class B_9012 {
             } else {
                 System.out.println("NO");
             }
+
         }
     }
     public static boolean isVPS(String Parenthesis) {
