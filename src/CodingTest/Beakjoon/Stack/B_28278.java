@@ -18,6 +18,7 @@ import java.io.InputStreamReader;
 
 public class B_28278 {
 
+
     public static int size = 0;
     public static int[] stackSave;
     public static int top = -1;
