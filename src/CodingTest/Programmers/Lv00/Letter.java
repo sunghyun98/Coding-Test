@@ -15,5 +15,7 @@ public class Letter {
         System.out.println("편지 내용 ");
         String message = sc.next();
         System.out.println(solution(message));
+
+
     }
 }
