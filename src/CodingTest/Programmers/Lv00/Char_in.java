@@ -17,6 +17,6 @@ public class Char_in {
             }
         }
 
-        System.out.println(q);
+        System.out.println();
     }
 }
