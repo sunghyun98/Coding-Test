@@ -8,6 +8,5 @@ public class ArrCut {
         int[] ar = {1,4,5};
         System.out.println(sr[1].length());
         Arrays.sort(ar);
-
     }
 }
