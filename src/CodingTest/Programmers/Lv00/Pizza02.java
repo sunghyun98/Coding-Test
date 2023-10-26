@@ -12,7 +12,7 @@ public class Pizza02 {
     public int solution(int n) {
         int answer = 1;
         int p = 6;
-        while (n%6 != 0){
+        while (p%n != 0){
             p += 6;
             answer++;
         }
@@ -23,7 +23,6 @@ public class Pizza02 {
         Pizza02 pizza = new Pizza02();
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("입력");
         int n = sc.nextInt();
         int result = pizza.solution(n);
 
