@@ -36,5 +36,6 @@ public class ArrCut {
 
         // solution 함수를 호출하여 최빈값을 찾고 결과를 출력
         System.out.println(solution(array));
+
     }
 }
