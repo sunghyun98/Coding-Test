@@ -15,8 +15,6 @@ public class LetterR {
     public static void main(String[] args) {
         int a = 'A'; //65
         int b = 'a'; //97
-
-
         System.out.println(b-a);
     }
 }
