@@ -9,6 +9,7 @@ public class LetterR {
             if (my_string.charAt(i) >= 0 && my_string.charAt(i) < 10) {
                 answer[i] = Character.getNumericValue(my_string.charAt(i));
             }
+
         }
         return answer;
     }
