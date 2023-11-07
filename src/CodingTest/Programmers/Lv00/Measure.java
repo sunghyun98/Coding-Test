@@ -8,7 +8,6 @@ import java.util.Scanner;
 약수 구하기
  */
 public class Measure {
-
     public int[] solution(int i){
         ArrayList <Integer> list = new ArrayList<>();
         for(int j = 1; j <= i; j++ ){
