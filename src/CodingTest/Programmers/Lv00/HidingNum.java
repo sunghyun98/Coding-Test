@@ -16,7 +16,6 @@ public class HidingNum {
             ch = my_string.charAt(i);
             if (Character.isDigit(ch)){
                 if (temp > 0 && Character.isDigit(ch)){
-
                     result += Character.getNumericValue(ch)*temp;
                     temp *= 10;
                     continue;
