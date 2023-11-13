@@ -15,17 +15,15 @@ public class OneChar {
         Arrays.sort(s1);
 
         //a a a b c c d d
-        for (int i = 0; i < s1.length-1; i++){
-            for (int j = i+1; j < s1.length; j++){
+        for (int i = 0; i < s1.length; i++){
+            int count = 0;
+            for (int j = 0; j < s1.length; j++){
                 if(s1[i] == s1[j]){
-                    break;
-                }else {
-                    if(s1[i] == s1[j-1]){
-                        answer += s1[i];
-                        break;
-                    }
-                    break;
+                    count++;
                 }
+            }
+            if (count == 1){
+                answer += s1[i];
             }
         }
         System.out.println(answer);
