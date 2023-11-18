@@ -17,6 +17,7 @@ public class Factorization {
                     if (!a1.contains(i)) {
                         a1.add(i);
                     }
+
                 } else {
                     break;
                 }
