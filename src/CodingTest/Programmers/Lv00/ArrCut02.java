@@ -8,16 +8,14 @@ public class ArrCut02 {
         String m = "";
         int a = 0;
         a = my_str.length()/n;
+
         String answer[] = new String[my_str.length()/6];
         for (int j = 0; j < my_str.length()/6; j++){
-            for (int i = 0 + m1; i < n+m1; i++){
-                m += my_str.charAt(i);
-            }
-            answer[j] = m;
-            m1 += n-1;
+
 
         }
         //0 1 2 3 4 5 / 6 7 8 9 10 11 /
         System.out.println(answer.toString());
+
     }
 }
