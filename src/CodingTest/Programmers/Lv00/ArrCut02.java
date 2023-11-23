@@ -10,7 +10,6 @@ public class ArrCut02 {
         a = my_str.length()/n;
 
 
-
         String answer[] = new String[my_str.length()/6];
         for (int j = 0; j < my_str.length()/6; j++){
 
