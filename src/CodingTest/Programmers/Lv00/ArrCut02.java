@@ -5,8 +5,6 @@ public class ArrCut02 {
         String my_str = "abc1Addfggg4556b";
         int n = 6;
 
-        
-
 
     }
 }
