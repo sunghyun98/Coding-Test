@@ -11,6 +11,7 @@ public class Binary {
         int res = num1+num2;
         answer = Integer.toBinaryString(res);
         System.out.println(answer);
+
         }
     }
 
