@@ -27,6 +27,7 @@ public class Factorization {
             }
         }
 
+
         // ArrayList를 배열로 변환
         int[] answer = new int[a1.size()];
         for (int i = 0; i < a1.size(); i++){
