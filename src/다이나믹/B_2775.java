@@ -3,6 +3,7 @@ package 다이나믹;
 import java.util.Scanner;
 
 class B_2775{
+
     public static void main(String[] args) {
         int arr[][] = new int[15][15];
         //아파트의 층별 사람수를 입력할 2차원배열
