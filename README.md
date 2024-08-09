@@ -3,7 +3,8 @@
 https://www.acmicpc.net/
 
 3레벨 목표
-
+oracle 사용
+mysql 사용
 프로그래머스 고득점 kit 풀이
 # 알고리즘 스터디
 
