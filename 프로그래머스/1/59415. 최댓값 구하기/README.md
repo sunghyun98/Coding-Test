@@ -1,6 +1,6 @@
 # [level 1] 최댓값 구하기 - 59415 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59415) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59415?language=oracle) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@ Empty
 
 ### 제출 일자
 
-2024년 03월 30일 22:36:15
+2024년 08월 11일 22:37:30
 
 ### 문제 설명
 
