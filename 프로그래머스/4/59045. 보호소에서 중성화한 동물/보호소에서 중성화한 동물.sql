@@ -1,4 +1,4 @@
--- 코드를 입력하세요
+-- 코드를 입력하세요ㅇㅇ
 SELECT I.animal_id, I.animal_type, I.name
 FROM ANIMAL_OUTS O
 JOIN (SELECT * FROM ANIMAL_INS WHERE SEX_UPON_INTAKE LIKE '%Intact%') I
