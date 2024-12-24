@@ -6,6 +6,7 @@ ms sql 추가
 oracle 사용
 mysql 사용
 프로그래머스 고득점 kit 풀이
+MS SQL 추가
 # 알고리즘 스터디
 
 하루 하나의 알고리즘 테스트 시작
