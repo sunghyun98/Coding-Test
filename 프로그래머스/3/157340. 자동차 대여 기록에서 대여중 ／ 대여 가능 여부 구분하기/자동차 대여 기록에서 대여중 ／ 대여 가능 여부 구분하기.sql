@@ -1,10 +1,10 @@
-select car_id, case when car_id in
-(select car_id 
- from CAR_RENTAL_COMPANY_RENTAL_HISTORY
- where '20221016' BETWEEN to_char(START_DATE, 'YYYYMMDD') AND to_char(END_DATE, 'YYYYMMDD') 
-)
-then '대여중'
-else '대여 가능' end "availability"
-from CAR_RENTAL_COMPANY_RENTAL_HISTORY
-group by car_id
-order by 1 desc
+SELECT car_id
+    , CASE WHEN car_id IN (SELECT DISTINCT car_id
+                        FROM CAR_RENTAL_COMPANY_RENTAL_HISTORY
+                        WHERE start_date <= '2022-10-16' AND end_date >= '2022-10-16') THEN '대여중'
+    ELSE '대여 가능'
+    END AS availability
+FROM
+    CAR_RENTAL_COMPANY_RENTAL_HISTORY
+GROUP BY car_id
+ORDER BY car_id DESC
